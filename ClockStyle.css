@@ -1,0 +1,41 @@
+h3{
+    position: relative;
+    color: darkblue;
+    font-weight: bold;
+}
+
+#clock {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    font-size: 24px;
+    border: solid;
+}
+
+.hour-line, .minute-line, .second-line {
+    position: absolute;
+    transform-origin: 50% 100%;
+    padding-bottom: 15%;
+    left: 50%;
+}
+
+.hour-line {
+    width: 6px;
+    height: 60px;
+    top: 90px;
+    font-weight: bolder;    
+}
+
+.minute-line {
+    width: 4px;
+    height: 80px;
+    top: 40px;
+    font-weight: bold;
+}
+
+.second-line {
+    width: 2px;
+    height: 100px;
+    top: 25px;
+}
